@@ -1,0 +1,18 @@
+first = float(input("First: "))
+second = float(imput("Second: "))
+unit = input("Add, Subtract, Multiply, or Divide: ")
+if unit.upper() == "ADD":
+    answer = first + second
+    print("Answer: " + str(answer))
+if unit.upper() == "SUBTRACT":
+    answer = first - second
+    print("Answer: " + str(answer))
+if unit.upper() == "MULTIPLY":
+    answer = first * second
+    print("Answer: " + str(answer))
+if unit.upper() == "DIVIDE":
+    answer = first / second
+    print("Answer: " + str(answer))
+    
+else:
+    print("Im sorry, please run again and choose a proper response.")
