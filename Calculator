@@ -1,5 +1,5 @@
 first = float(input("First: "))
-second = float(imput("Second: "))
+second = float(input("Second: "))
 unit = input("Add, Subtract, Multiply, or Divide: ")
 if unit.upper() == "ADD":
     answer = first + second
